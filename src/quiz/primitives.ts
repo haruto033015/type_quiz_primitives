@@ -4,12 +4,12 @@
 const a: number = 2;
 
 // ここの型を修正する
-const b: string = a;
+const b: number = a;
 
 // Q2: 変数 c の定義を修正して型エラーを直してください
 
 // ここの型を修正する
-const c: string = "hello";
+const c: "hello" = "hello";
 
 // ここがエラーにならないようにする
 const d: "hello" = c;
@@ -19,12 +19,12 @@ const d: "hello" = c;
 // Q3: 変数 f の定義を修正して型エラーを直してください
 const e = 1;
 
-const f: /* ここに型を書く */ = e;
+const f: number = e;
 
 // Q4: 変数 g の定義を修正して型エラーを直してください
 
 // ここを変更する
-const g = 1;
+let g: number = 1;
 
 // ここがエラーにならないようにする
 g = 10;
